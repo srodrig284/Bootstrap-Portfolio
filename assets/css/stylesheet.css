@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/paper_2.png) #efeee7;
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    color: #424242;
+    height: 100%;
+}
+
+p{
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-size: .99em;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    color: #000016;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 0;
+    background-color: #000016;
+    color: #ffffff;
+    font-size: 1.75em;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.navbar li a, .navbar {
+    color: #000016;
+}
+
+.navbar {
+    background-color: #ffffff;
+    margin-bottom: 0px;
+}
+
+.footer {
+    background-color: #666;
+    text-align: center;
+    border-top: 5px solid #000016;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+    padding-top: 23px;
+    box-sizing: content-box;
+}
+
+#profpic {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    margin: 0 auto;
+    min-height: 100%;
+    width: 1024px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+.panel {
+    margin: 40px auto;
+}
+
+.page-header {
+    margin-top: 20px;
+}
+
+#left_section {
+    background-color: #FFFFFF;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer, .push { /* .push must be the same height as .footer */
+    height: 40px;
+}
+
+.btn-default {
+    width: 100%;
+    background-color: #000016;
+    font-size: 15px;
+}
+
+.portfolio_images {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-right:30px;
+    margin-top: 40px;
+}
+
+#portpic {
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+
+#absolute {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    background: #000016;
+    color: #f7f7f7;
+}
