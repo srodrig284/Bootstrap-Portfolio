@@ -21,8 +21,7 @@ h1, h2, h3 {
     display: inline-block;
     padding: 20px;
     margin-bottom: 0;
-    background-color: #000016;
-    color: #ffffff;
+    color: #000016;
     font-size: 2.75em;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -32,19 +31,24 @@ h1, h2, h3 {
 }
 
 .navbar {
-    background-color: #ffffff;
+    background-color: #337ab7;
     margin-bottom: 0px;
 }
 
+
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 15px;
+}
+
 .footer {
-    background-color: #666;
+    background-color: #337ab7;
     text-align: center;
     border-top: 5px solid #000016;
     width: 100%;
     bottom: 0;
     left: 0;
     color: #ffffff;
-    padding-top: 23px;
+    padding-top: 19px;
     box-sizing: content-box;
 }
 
@@ -66,13 +70,17 @@ h1, h2, h3 {
     margin: 40px auto;
 }
 
+.panel-heading {
+    background-color: #337ab7;
+}
 .page-header {
     margin-top: 20px;
+    border-bottom: 2px solid #337ab7;
 }
 
 #left_section {
-    background-color: #FFFFFF;
-    border: 2px solid #ddd;
+   /* background-color: #FFFFFF;
+    border: 2px solid #ddd;*/
     padding: 20px;
     margin-top: 20px;
 }
