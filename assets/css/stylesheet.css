@@ -26,9 +26,9 @@ h1, h2, h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.navbar li a, .navbar {
+/*.navbar li a, .navbar {
     color: #000016;
-}
+}*/
 
 .navbar {
     background-color: #337ab7;
@@ -38,6 +38,15 @@ h1, h2, h3 {
 
 .navbar>.container-fluid .navbar-brand {
     margin-left: 15px;
+}
+
+.panel-default > .panel-heading {
+    color: #000016;
+}
+
+.panel {
+    /*background-color: #f2f2f2;*/
+    background-color: #337ab7;
 }
 
 .footer {
@@ -70,9 +79,6 @@ h1, h2, h3 {
     margin: 40px auto;
 }
 
-.panel-heading {
-    background-color: #337ab7;
-}
 .page-header {
     margin-top: 20px;
     border-bottom: 2px solid #337ab7;
