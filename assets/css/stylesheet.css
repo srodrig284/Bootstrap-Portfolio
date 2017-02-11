@@ -131,3 +131,19 @@ h1, h2, h3 {
     background: #000016;
     color: #f7f7f7;
 }
+
+@media (min-width: 768px) {
+    .wrapper {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .wrapper {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .wrapper {
+        width: 1170px;
+    }
+}
